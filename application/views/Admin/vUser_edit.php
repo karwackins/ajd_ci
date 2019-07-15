@@ -1,5 +1,5 @@
 <?php echo validation_errors(); ?>
-<?php echo form_open('http://cms.local/Admin/cUser/edit/'.$user->id); ?>
+<?php echo form_open(); ?>
 
 <table>
     <tr>
@@ -19,7 +19,7 @@
 
         <?php
         $options = array(
-            'admin' => 'Admin',
+            'admin' => 'admin',
             'user' => 'User'
         )
         ?>

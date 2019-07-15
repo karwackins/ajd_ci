@@ -23,7 +23,7 @@
                         <td>'. $user->name.'</td>
                         <td>'. $user->email.'</td>
                         <td>'. $user->role.'</td>
-                        <td><a href="get/'.$user->id.'">Edytuj</a></td>
+                        <td>'.anchor('/admin/cUser/edit/'.$user->id,'Edytuj').'</td>
                         <td><a href="delete/'.$user->id.'">Usuń</a></td>
                     </tr>';?>
 

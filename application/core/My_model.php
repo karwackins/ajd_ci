@@ -47,4 +47,11 @@ class My_model extends CI_Model
         $this->db->where($where);
         $this->db->delete($table);
     }
+
+    public function unique_email($where)
+    {
+        $this->db->where($where);
+        $query = $this->db->get('users');
+        $query->row();
+    }
 }

@@ -200,7 +200,7 @@ abstract class CI_DB_driver {
 	/**
 	 * Save queries flag
 	 *
-	 * Whether to keep an in-memory history of queries for debugging purposes.
+	 * Whether to keep an in-memory cHistory of queries for debugging purposes.
 	 *
 	 * @var	bool
 	 */

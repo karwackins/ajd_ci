@@ -1,5 +1,5 @@
 <?php echo validation_errors(); ?>
-<?php echo form_open('http://cms.local/Admin/cUser/create'); ?>
+<?php echo form_open('http://cms.local/admin/cUser/create'); ?>
 
     <table>
         <tr>
@@ -23,7 +23,7 @@
 
             <?php
                 $options = array(
-                    'admin' => 'Admin',
+                    'admin' => 'admin',
                     'User' => 'User'
                 )
             ?>

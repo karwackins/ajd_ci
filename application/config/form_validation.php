@@ -39,16 +39,11 @@ $config = array(
 	    array(
 			 'field'   => 'password', 
 			 'label'   => 'Hasło', 
-			 'rules'   => 'trim|matches[passconf]'
-		),   
-	    array(
-			 'field'   => 'passconf', 
-			 'label'   => 'Potwierdzenie hasła', 
-			 'rules'   => 'trim'
+			 'rules'   => 'trim|required'
 		),
 	),
 
-    'panel_login' => array(
+    'report_login' => array(
         array(
             'field'   => 'email',
             'label'   => 'Email',
