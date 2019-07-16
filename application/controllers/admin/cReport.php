@@ -93,6 +93,7 @@ class cReport extends CI_Controller {
             }
             $i++;
         }
+        array_shift($arr); //usuwa pierwszy przecinek z tablicy
         foreach ($arr as $a)
         {
             echo $a;
