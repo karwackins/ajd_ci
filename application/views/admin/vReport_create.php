@@ -22,7 +22,7 @@ else
                 'class' => 'form-control'
             )); ?></td>
         <!--            <input id="text2" type="textbox" value="Type something">-->
-        <td><?php echo form_input('cols', ''); ?></td>
+        <td><?php echo form_input('cols', '', 'hidden'); ?></td>
     </tr>
     <tr>
         <td colspan="2"><h3>Wybór tabeli</h3></td>
